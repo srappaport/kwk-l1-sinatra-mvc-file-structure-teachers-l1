@@ -11,5 +11,5 @@ class ApplicationController < Sinatra::Base
 end
 
 class Dog
-  attr_accessor :name :breed :age
+  attr_accessor :name, :breed, :age
 end
